@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+#esquema {
+    width: 48%;
+}
+#frameSpec {
+    width: 425px;
+    height: 280px;
+    border: none;
+    overflow: hidden;    
+}
+#frameSpec::-webkit-scrollbar { /*Seria para ocultar a barra de rolagem mas aparentemente não funciona em todos os navegadores*/
+    width: 0;
+    height: 0;
+ 
+}
